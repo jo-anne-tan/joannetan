@@ -1,0 +1,18 @@
+[ ] tech :
+    - VanillaJS
+    - HTML5
+    - CSS
+    - No bootstrap, jQuery, etc?
+
+[ ] content:
+    [ ] Jumbotron with brief introduction
+    [ ] Slightly more detailed introduction
+    [ ] tech stacks I have learnt vs tech stacks I want to learn next
+        -  ticks/cut-through vs normal
+    [ ] projects I have done (portfolio) vs fun personal projects I want to do next
+    [ ] social media links - linkedIn, github, (stackoverflow?)
+    [ ] contact information
+        - pop-up modal to send email
+        
+[ ] Fun to have:
+    [ ] play lofi music upon page load
