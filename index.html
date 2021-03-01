@@ -4,25 +4,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta description="Looking for someone to build your site?" >
+    <meta description="Need help building your website?" >
     <title>Jo-Anne Tan | Full-Stack Web Developer</title>
+    <link rel="icon" type="image/ico" href="./images/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500&display=swap');
     </style> 
 </head>
-<body>
-    <div class="jumbotron d-flex m-auto row">
-        <img class="avatar my-auto" src="" alt="Jo-Anne Tan portrait">
+<body class="px-5">
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-3">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <a class="nav-link" href="#aboutme">About Me</a>
+                <a class="nav-link" href="#stack">My stack</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-link" href="#contact">Contact Me</a>
+            </ul>
+        </div>
+    </nav>
+    <!-- Jumbotron Start -->
+    <div class="jumbotron d-flex mx-auto row section">
+        <img class="avatar" src="./images/avatar.jpg" alt="avatar">
         <div class="col">
-            <h1 class="display-4">Hi there! I'm Jo-Anne, a full-stack web developer.</h1>
+            <h1 class="display-4">Hello world 👋</h1>
+            <h2 class="display-5">I'm Jo-Anne, a Full-Stack Web Developer</h2>
             <br/>
             <hr/>
             <br/>
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates praesentium dolor culpa incidunt dolores quia neque consectetur omnis, dignissimos illo, non quo velit nulla tempore sapiente officia vel pariatur eius?</p>
+            <p class="lead">That means I work with front-end - the pages you see and interact with on a browser - and the backend server that drives it</p>
         </div>
     </div>
+    <div id="aboutme" class="section mx-auto d-flex row">
+        <img class="avatar col-3" src="" alt="somephoto">
+        <div class='col-9'>
+            <p class="fs-4 paragraph text-justify">
+                Hello! I'm Jo-Anne, a full-stack web developer residing in a lovely town called Klang, located in a tropical country known as Malaysia. 
+            </p>
+            <p class="fs-4 paragraph text-justify">
+                I graduated from Monash University in 2016 with a Bachelor's degree in Electrical and Computer Systems Engineering and worked in the field of industrial automation for several years. During this time, I can't help the feeling of wanting to impact this world more directly, but not knowing how to.
+            </p>
+            <p class="fs-4 paragraph">
+                I decided to participate in several volunteer activities, but something was still missing. It wasn't until I joined a German company in industrial automation as a salesperson, and was given the chance to participate in a series of programming training sessions, that I finally realised what was missing.
+            </p>
+            <p class="fs-4 paragraph">
+                In pursuit of this feverish passion I once experienced in programming classes back in my degree, I did a quick research on the job market for software developers, then decided to take a leap of faith and persue a 3-month full-time bootcamp in full-stack web development.
+            </p>
+            <p class="fs-4 paragraph">
+                Here I am, 3 months later with a belt of shiny, newly acquired skills along with newfound confidence, passion and excitement!
+            </p>
+            <p class="fs-4 paragraph">
+                My list of ever-growing interests includes: modern single-page-apps, mobile apps, software development, big data analytics, artificial intelligence and machine learning.
+            </p>
+        </div>
+    </div>
+    <div id="stack-bg">
+        <div id="stack" class="section mx-auto">
+            <p class="fs-4 paragraph">
+                Languages, tools and frameworks
+            </p>
+            <div class="mx-auto d-flex flex-column align-items-center">
+                <h3>What I have acquired:</h3>
+                <div class="container d-flex justify-content-around flex-wrap">
+                    <img class="logo" src="./images/js.png" alt="">
+                    <img class="logo" src="./images/html5.png" alt="html5 logo">
+                    <img class="logo" src="./images/css.jpg" alt="css3 logo">
+                    <img class="logo" src="./images/bootstrap.jpg" alt="bootstrap logo">
+                    <img class="logo" src="./images/material-ui.png" alt="material ui logo">
+                    <img class="logo" src="./images/react.png" alt="react.js logo">
+                    <img class="logo" src="./images/flask.png" alt="flask logo">
+                    <img class="logo" src="./images/python.png" alt="">
+                    <img class="logo" src="./images/postgresql.jpeg" alt="">
+                    <img class="logo" src="./images/SQLite.png" alt="">
+                    <img class="logo" src="./images/pw.png" alt="">
+                </div>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <div class="mx-auto d-flex flex-column align-items-center">
+                <h3>What I plan to acquire:</h3>
+                <div class="container d-flex justify-content-around flex-wrap">
+                    <img src="./images/react native.jpg" alt="" class="logo">
+                    <img src="./images/java.png" alt="" class="logo">
+                    <img src="./images/django.png" alt="" class="logo">
+                    <img src="./images/ruby.png" alt="" class="logo">
+                    <img src="./images/typescript.png" alt="" class="logo">
+                    <img src="./images/mongodb.png" alt="" class="logo">
+                    <img src="./images/sass.jpg" alt="" class="logo">
+                    <img src="./images/tailwindcss-pre.png" alt="" class="logo">
+                    <img src="./images/mysql.png" alt="" class="logo">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio" class="section">
+        Portfolio section
+    </div>
+    <div id="contact" class="section">
+        contact me 
+    </div>
     
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    </html>
 </body>
-</html>
