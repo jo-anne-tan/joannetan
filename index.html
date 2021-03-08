@@ -25,15 +25,16 @@
                 <a class="nav-link" href="#aboutme">About Me</a>
                 <a class="nav-link" href="#stack">My stack</a>
                 <a class="nav-link" href="#portfolio">Portfolio</a>
+                <!-- <a class="nav-link" href="#interest">My fields of interest</a> -->
                 <a class="nav-link" href="#contact">Contact Me</a>
             </ul>
         </div>
     </nav>
     <!-- Jumbotron Start -->
     <div class="jumbotron d-flex mx-auto row section">
-        <img class="avatar" src="./images/avatar.jpg" alt="avatar">
+        <img class="avatar img-fluid" src="./images/avatar.jpg" alt="avatar">
         <div class="col">
-            <h1 class="display-4">Hello world 👋</h1>
+            <h1 class="display-4">Hello world! 👋</h1>
             <h2 class="display-5">I'm Jo-Anne, a Full-Stack Web Developer</h2>
             <br/>
             <hr/>
@@ -42,25 +43,22 @@
         </div>
     </div>
     <div id="aboutme" class="section mx-auto d-flex row">
-        <img class="avatar col-3" src="" alt="somephoto">
-        <div class='col-9'>
-            <p class="fs-4 paragraph text-justify">
-                Hello! I'm Jo-Anne, a full-stack web developer residing in a lovely town called Klang, located in a tropical country known as Malaysia. 
+        <img class="portrait mx-auto col-12 col-sm-3" src="" alt="my portrait">
+        <div class="col mx-auto" >
+            <p class="paragraph">
+                Hello! I'm Jo-Anne, a full-stack web developer residing in Klang, a lovely town in a tropical country known as Malaysia. 
             </p>
-            <p class="fs-4 paragraph text-justify">
-                I graduated from Monash University in 2016 with a Bachelor's degree in Electrical and Computer Systems Engineering and worked in the field of industrial automation for several years. During this time, I can't help the feeling of wanting to impact this world more directly, but not knowing how to.
+            <p class="paragraph">
+                I graduated from Monash University in 2016 with a Bachelor's degree in Electrical and Computer Systems Engineering and worked in the industrial automation industry for several years. During this time, I felt a strong need to impact this world more directly, but not knowing how to.
             </p>
-            <p class="fs-4 paragraph">
-                I decided to participate in several volunteer activities, but something was still missing. It wasn't until I joined a German company in industrial automation as a salesperson, and was given the chance to participate in a series of programming training sessions, that I finally realised what was missing.
+            <p class="paragraph ">
+                I participated in volunteer activities with NGOs. It was fun, but something was missing. It wasn't until I participated in the programming training sessions in my previous company that I finally realised what that was.
             </p>
-            <p class="fs-4 paragraph">
-                In pursuit of this feverish passion I once experienced in programming classes back in my degree, I did a quick research on the job market for software developers, then decided to take a leap of faith and persue a 3-month full-time bootcamp in full-stack web development.
+            <p class="paragraph">
+                In pursuit of the feverish passion I once experienced in university programming assignments, I did a quick research on the job market for software developers and decided to take a leap of faith and persue a 3-month bootcamp in full-stack web development.
             </p>
-            <p class="fs-4 paragraph">
-                Here I am, 3 months later with a belt of shiny, newly acquired skills along with newfound confidence, passion and excitement!
-            </p>
-            <p class="fs-4 paragraph">
-                My list of ever-growing interests includes: modern single-page-apps, mobile apps, software development, big data analytics, artificial intelligence and machine learning.
+            <p class="paragraph">
+                Here I am, 3 months later with a belt of shiny new skills alongside newfound confidence, passion and excitement!
             </p>
         </div>
     </div>
@@ -106,10 +104,96 @@
         </div>
     </div>
     <div id="portfolio" class="section">
-        Portfolio section
+        <h2>Portfolio</h2>
+        <br/>
+        <div >
+            <span class="github">For the full list, please visit my profile at </span>
+            <a href="https://github.com/jo-anne-tan" target="_blank">
+                <img class="github-logo" src="./images/GitHub_Logo_White.png" alt="github logo"></img>
+            </a>
+        </div>
+        <br/>
+        <h3>Top 3 Highlights</h3>
+        
+        <!-- 1 - Aspire - Python+Flask(BE) + React(FE) -->
+        <div class="d-flex flex-wrap">
+            <div class="card mx-auto">
+                <img class="card-image-top " src="./images/screenshot_aspire.png" alt="card-image"/>
+                <div class="card-body">
+                    <h5 class="card-title">Aspire - Full-Stack - React+Flask</h5>
+                    <p class="card-text">
+                        This is a tutor-student booking app. Like Tinder, but for educational purposes.
+                        Front-end is developed on React, backend is developed on Python with Flask.
+                    </p>
+                    <hr/>
+                    <div class="d-flex justify-content-between">
+                        <a class="link" target="_blank" href="https://aspire-react-app.netlify.app/">Live website</a>
+                        <a class="link" target="_blank" href="https://github.com/jo-anne-tan/aspire_api">Github Repo (Backend)</a>
+                        <a class="link" target="_blank" href="https://github.com/jo-anne-tan/aspire_app">Github Repo (Frontend)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 2 - Instagram clone - Python+Flask (Full-Stack) -->
+        <div class="d-flex flex-wrap">
+            <div class="card mx-auto">
+                <img class="card-image-top " src="./images/screenshot_nextagram_flask.png" alt="card-image"/>
+                <div class="card-body">
+                    <h5 class="card-title">Instagram Clone - Full-Stack Python+Flask</h5>
+                    <p class="card-text">
+                        This is an Instagram clone, where users are able to upload and view others' photos. Users are able to set their profiles private and follow each other.
+                    </p>
+                    <hr/>
+                    <div class="d-flex justify-content-between">
+                        <a class="link" target="_blank" href="https://nextagram-flask-app.herokuapp.com">Live website</a>
+                        <a class="link"target="_blank" href="https://github.com/jo-anne-tan/nextagram-flask-app">Github Repo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3 - Instagram clone - React.js (Front end) -->
+        <div class="d-flex flex-wrap">
+            <div class="card mx-auto">
+                <img class="card-image-top " src="./images/screenshot_nextagram_react.png" alt="card-image"/>
+                <div class="card-body">
+                    <h5 class="card-title">Instagram Clone - Front-End - React.js</h5>
+                    <p class="card-text">
+                        This is an Instagram clone as a Single-Page-App using React.js. Users can view other users' profile, view photos, like and comment.
+                    </p>
+                    <p>
+                        Built based on the APIs as documented below.
+                    </p>
+                    <hr/>
+                    <div class="d-flex justify-content-between">
+                        <a class="link" target="_blank" href="https://nextagram-react-joannetan.netlify.app/">Live website</a>
+                        <a class="link" target="_blank" href="https://documenter.getpostman.com/view/2792518/RzZ6HLBy">Nextagram API</a>
+                        <a class="link"target="_blank" href="https://github.com/jo-anne-tan/nextagram">Github Repo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <!-- <div id="interest" class="section">
+        My field of interests:
+            <p class="fs-4 paragraph">
+                My list of ever-growing interests includes: modern single-page-apps, mobile apps, software development, big data analytics, artificial intelligence and machine learning.
+            </p>
+    </div> -->
+
     <div id="contact" class="section">
-        contact me 
+        <p class="contact mx-auto">
+            <span class="contact">Got a cool project to work on together? Just wanna say hi? You can find me on </span>
+            <a class="contact" href="https://www.linkedin.com/in/jo-anne-tan/">LinkedIn</a>
+            <span class="contact">. Just shoot me a message and I'll get back to you soon!</span>
+        </p>
+        <p class="contact mx-auto pt-5">
+            <span class="contact">Or if you prefer, you can </span>
+            <a class="contact" href="mailto:tanjoanne128@gmail.com">send me an email.</a>
+            <span class="contact">Talk to you soon!</span>
+        </p>
     </div>
     
     <!-- Bootstrap JS -->

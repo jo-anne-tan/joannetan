@@ -18,10 +18,22 @@ a.nav-link:hover{
     transform: scale(1.05);
 }
 
+a{
+    text-decoration: none;
+    color: #FE5F55;
+}
+
+a.link:hover{
+    color: #232B2F  !important;
+    transition: 0.1s;
+    transform: scale(1.02);
+}
+
 div.section{
     padding-top: 5vh;
-    height: 100vh;
+    min-height: 100vh;
 }
+
 
 div#aboutme{
     width: 70%;
@@ -40,12 +52,14 @@ div#stack{
 div.half-box{
     width: 50%;
 }
+
 p.paragraph{
     margin-bottom: 30px;
-    
+    font-size: 22px;
 }
+
 .jumbotron{
-    padding-top: 35vh  !important;
+    padding-top: 15vw  !important;
     width: 80%;
     height: 100vh;
 }
@@ -53,10 +67,61 @@ p.paragraph{
 .avatar{
     width: 315px;
     height: 300px;
+    min-width: 210px;
+    min-height: 200px;
     border-radius: 50%;
+}
+
+.portrait{
+    height: 80vh;
+    width: 55vh;
+    min-height: 400px;
+    min-width: 300px;
+    border: 1px solid white;
 }
 
 img.logo{
     height: 150px;
     margin: 5px;
+}
+
+img.github-logo{
+    height: 35px;
+}
+span.github{
+    font-size: 18px;
+}
+
+div#contact{
+    padding-top: 20vw;
+}
+span.contact{
+    font-size: 32px;
+}
+
+p.contact{
+    width: 80vw;
+}
+
+a.contact{
+    font-size: 32px;
+}
+a.contact:hover{
+    color: #FFF2F1;
+}
+
+address.contact{
+    display:inline-block;
+    color: blueviolet  !important;
+}
+
+div.card{
+    position: static;
+    width: 58rem;
+    margin: 50px;
+    color: #232B2F;
+}
+
+.card-title{
+    font-weight: bold;
 }
