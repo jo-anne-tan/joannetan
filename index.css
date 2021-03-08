@@ -83,6 +83,7 @@ p.paragraph{
 img.logo{
     height: 150px;
     margin: 5px;
+    border-radius: 5px;
 }
 
 img.github-logo{
