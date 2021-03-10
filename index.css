@@ -4,6 +4,16 @@ body{
     font-family: 'Shippori Mincho', serif;
 }
 
+
+/* test */
+div.block{
+    /* width: 500px; */
+    max-height: 500px;
+    background-color: #39D0C1;
+}
+
+/*  */
+
 nav{
     height: 5vh;
     width: 100%;
@@ -73,15 +83,12 @@ p.paragraph{
 }
 
 .portrait{
-    height: 80vh;
-    width: 55vh;
-    min-height: 400px;
-    min-width: 300px;
-    border: 1px solid white;
+    /* max-height: 70vh; */
+    object-fit: contain;
 }
 
 img.logo{
-    height: 150px;
+    height: 120px;
     margin: 5px;
     border-radius: 5px;
 }
