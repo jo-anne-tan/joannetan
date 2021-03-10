@@ -49,10 +49,6 @@ div#aboutme{
     width: 70%;
 }
 
-/* div#stack-bg{
-    background-color: #FFF2F1;
-    color: #232B2F;
-} */
 
 div#stack{
     width: 80%;
@@ -71,7 +67,7 @@ p.paragraph{
 .jumbotron{
     padding-top: 15vw  !important;
     width: 80%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .avatar{
@@ -80,6 +76,7 @@ p.paragraph{
     min-width: 210px;
     min-height: 200px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .portrait{
